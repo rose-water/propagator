@@ -16,8 +16,8 @@ class ZineNav extends Component {
           <div className="contributor-meta">
             <span className="contributor-name">
               { this.props.author }
-              {this.props.portfolioUrl ? 
-                <a href={this.props.portfolioUrl} rel="noopener noreferrer" target="_blank">
+              { this.props.portfolioUrl ? 
+                <a href={ this.props.portfolioUrl } rel="noopener noreferrer" target="_blank">
                   <div className="zine-nav-link">
                     <img
                       id="zine-link-img"

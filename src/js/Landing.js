@@ -31,7 +31,7 @@ class Landing extends Component {
           <div id="right-background">
             <img
               id="right-background-img"
-              alt="right side background image"
+              alt="right side background"
               src={ require(`../assets/landing-bg.png`) }
             />
           </div>
