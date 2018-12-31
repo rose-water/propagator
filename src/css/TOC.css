@@ -1,5 +1,7 @@
 .zine-toc {
   height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .zine-toc ul li {
@@ -19,15 +21,39 @@
   font-weight: 400;
 }
 
-.zine-toc-container {
-  width: 100%;
+.zine-toc-container,
+.about-issue {
+  width: 50%;
   display: inline-block;
   height: 100%;
   vertical-align: top;
 }
 
+.about-issue {
+  background: #f9f9f9;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  font-size: 0.8em;
+  line-height: 20px;
+  flex-direction: column;
+}
+
+.about-issue h1 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.zine-toc h1 {
+  font-size: 20px;
+  font-style: italic;
+}
+
 .zine-toc-container {
-	display: flex;
+  display: flex;
+  flex-direction: column;
 	justify-content: center;
   align-items: center;
   padding: 40px;

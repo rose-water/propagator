@@ -81,7 +81,7 @@ class Zine extends Component {
         <NavBar />
         <ZineNav
           author={ 
-            this.state.currentPage === 0 ? "TABLE OF CONTENTS" : 
+            this.state.currentPage === 0 ? "ABOUT THIS ISSUE" : 
             this.state.submissions[this.state.currentSubmission].author 
           }
           creds={ 
